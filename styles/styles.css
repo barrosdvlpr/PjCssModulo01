@@ -1,45 +1,54 @@
 *{
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
 }
-
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
 .mainContainer{
     margin: 0 auto;
 }
 .firstContainer{
     background-color: white;
-    margin-top: 5rem;
+    margin-top: 4rem;
 }
 .secondContainer{
-    background-color: gray;
+    background-color: darkgray;
     height: 100vh;
     padding-top: 20px;
-    border-top: 2px solid black;
+    border-top: 4px solid gray;
 }
 .firstCard{
-    max-width: 400px;
+    max-width: 600px;
+    
     background-color: white;
     margin: 0 auto;
     margin-bottom: 40px;
     padding-top: 20px;
 }
 .secondCard{
-    max-width: 400px;
+    max-width: 600px;
     background-color: white;
     margin: 0 auto;
     padding-top: 20px;
     margin-top: 20px;
     padding-bottom: 1px;
+    border-bottom: 4px solid gray;
 }
 .secondTitle{
-
-    background-color: yellow;
+    background-color: gold;
+    border-bottom: 4px solid darkgoldenrod;
+    max-width: fit-content;
     margin-left: -10px;
     margin-top: -15px;
+    padding-left: 25px;
+    padding-right: 5px;
 }
-
 strong{
-    color: green;  
+    color: lightgreen;  
 }
-
 p, h1{
     margin-left: 15px;
     margin-right: 15px;
